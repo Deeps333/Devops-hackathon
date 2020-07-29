@@ -93,6 +93,10 @@
                <pushChanges>false</pushChanges>
                <localCheckout>true</localCheckout>
                <tagNameFormat>v@{project.version}</tagNameFormat>
+               <checkModificationExcludes>
+                      <checkModificationExclude>pom.xml</checkModificationExclude>
+                      <checkModificationExclude>**</checkModificationExclude>
+               </checkModificationExcludes>
         </configuration>
       </plugin>
         </plugins>
